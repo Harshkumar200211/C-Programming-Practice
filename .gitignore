@@ -1,0 +1,17 @@
+# Compiled C programs and object files
+*.o
+*.obj
+*.exe
+*.out
+app
+program
+hello
+
+# Sample files created while running lessons
+sample.txt
+notes.txt
+
+# Local build/test folders
+.build/
+build/
+__pycache__/

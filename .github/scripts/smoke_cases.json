@@ -1,0 +1,631 @@
+{
+  "numberedPrograms": [
+    {
+      "path": "01_Basics/001_hello_world.c",
+      "input": "",
+      "expected": "Hello, World!"
+    },
+    {
+      "path": "01_Basics/002_display_name_age.c",
+      "input": "Harsh\n20\n",
+      "expected": "Name = Harsh"
+    },
+    {
+      "path": "01_Basics/003_input_integer.c",
+      "input": "42\n",
+      "expected": "Number = 42"
+    },
+    {
+      "path": "01_Basics/004_sum_two_numbers.c",
+      "input": "10 20\n",
+      "expected": "Sum = 30"
+    },
+    {
+      "path": "01_Basics/005_arithmetic_operations.c",
+      "input": "10 2\n",
+      "expected": "Sum = 12"
+    },
+    {
+      "path": "01_Basics/006_basic_data_types.c",
+      "input": "7 2.5 A\n",
+      "expected": "Float = 2.50"
+    },
+    {
+      "path": "01_Basics/007_sizeof_data_types.c",
+      "input": "",
+      "expected": "Size of int ="
+    },
+    {
+      "path": "01_Basics/008_ascii_value.c",
+      "input": "A\n",
+      "expected": "ASCII value = 65"
+    },
+    {
+      "path": "01_Basics/009_celsius_to_fahrenheit.c",
+      "input": "0\n",
+      "expected": "Fahrenheit = 32.00"
+    },
+    {
+      "path": "01_Basics/010_rectangle_area_perimeter.c",
+      "input": "5 4\n",
+      "expected": "Perimeter = 18.00"
+    },
+    {
+      "path": "01_Basics/011_circle_area_circumference.c",
+      "input": "7\n",
+      "expected": "Area ="
+    },
+    {
+      "path": "01_Basics/012_square_area.c",
+      "input": "5\n",
+      "expected": "Area = 25"
+    },
+    {
+      "path": "01_Basics/013_simple_interest.c",
+      "input": "1000 5 2\n",
+      "expected": "Simple Interest = 100.00"
+    },
+    {
+      "path": "01_Basics/014_compound_interest.c",
+      "input": "1000 5 2\n",
+      "expected": "Amount = 1102.50"
+    },
+    {
+      "path": "01_Basics/015_swap_with_third_variable.c",
+      "input": "10 20\n",
+      "expected": "a = 20, b = 10"
+    },
+    {
+      "path": "01_Basics/016_swap_without_third_variable.c",
+      "input": "10 20\n",
+      "expected": "a = 20, b = 10"
+    },
+    {
+      "path": "02_Conditions/017_even_or_odd.c",
+      "input": "4\n",
+      "expected": "Even"
+    },
+    {
+      "path": "02_Conditions/018_positive_negative_zero.c",
+      "input": "0\n",
+      "expected": "Zero"
+    },
+    {
+      "path": "02_Conditions/019_largest_of_two.c",
+      "input": "9 4\n",
+      "expected": "Largest = 9"
+    },
+    {
+      "path": "02_Conditions/020_largest_of_three.c",
+      "input": "1 7 5\n",
+      "expected": "Largest = 7"
+    },
+    {
+      "path": "02_Conditions/021_divisible_by_5_and_11.c",
+      "input": "55\n",
+      "expected": "Divisible by both"
+    },
+    {
+      "path": "02_Conditions/022_leap_year.c",
+      "input": "2024\n",
+      "expected": "Leap year"
+    },
+    {
+      "path": "02_Conditions/023_vowel_or_consonant.c",
+      "input": "e\n",
+      "expected": "Vowel"
+    },
+    {
+      "path": "02_Conditions/024_character_type.c",
+      "input": "7\n",
+      "expected": "Digit"
+    },
+    {
+      "path": "02_Conditions/025_change_letter_case.c",
+      "input": "a\n",
+      "expected": "Uppercase = A"
+    },
+    {
+      "path": "02_Conditions/026_voting_eligibility.c",
+      "input": "20\n",
+      "expected": "Eligible to vote"
+    },
+    {
+      "path": "02_Conditions/027_grade_from_marks.c",
+      "input": "85\n",
+      "expected": "Grade = A"
+    },
+    {
+      "path": "02_Conditions/028_pass_or_fail.c",
+      "input": "35\n",
+      "expected": "Fail"
+    },
+    {
+      "path": "02_Conditions/029_valid_triangle.c",
+      "input": "3 4 5\n",
+      "expected": "Valid triangle"
+    },
+    {
+      "path": "02_Conditions/030_triangle_type.c",
+      "input": "3 3 4\n",
+      "expected": "Isosceles triangle"
+    },
+    {
+      "path": "02_Conditions/031_switch_calculator.c",
+      "input": "10 2\n+\n",
+      "expected": "Result = 12.00"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/032_print_1_to_n.c",
+      "input": "5\n",
+      "expected": "1 2 3 4 5"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/033_print_n_to_1.c",
+      "input": "5\n",
+      "expected": "5 4 3 2 1"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/034_even_numbers_range.c",
+      "input": "8\n",
+      "expected": "2 4 6 8"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/035_odd_numbers_range.c",
+      "input": "7\n",
+      "expected": "1 3 5 7"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/036_sum_natural_numbers.c",
+      "input": "5\n",
+      "expected": "Sum = 15"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/037_multiplication_table.c",
+      "input": "5\n",
+      "expected": "5 x 10 = 50"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/038_factorial_loop.c",
+      "input": "5\n",
+      "expected": "Factorial = 120"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/039_count_digits.c",
+      "input": "12345\n",
+      "expected": "Digits = 5"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/040_sum_digits.c",
+      "input": "1234\n",
+      "expected": "Sum of digits = 10"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/041_reverse_number.c",
+      "input": "123\n",
+      "expected": "Reversed = 321"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/042_palindrome_number.c",
+      "input": "121\n",
+      "expected": "Palindrome number"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/043_prime_check.c",
+      "input": "7\n",
+      "expected": "Prime number"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/044_primes_up_to_n.c",
+      "input": "10\n",
+      "expected": "2 3 5 7"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/045_fibonacci_series.c",
+      "input": "6\n",
+      "expected": "0 1 1 2 3 5"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/046_armstrong_number.c",
+      "input": "153\n",
+      "expected": "Armstrong number"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/047_perfect_number.c",
+      "input": "28\n",
+      "expected": "Perfect number"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/048_strong_number.c",
+      "input": "145\n",
+      "expected": "Strong number"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/049_gcd_two_numbers.c",
+      "input": "12 18\n",
+      "expected": "GCD = 6"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/050_lcm_two_numbers.c",
+      "input": "4 6\n",
+      "expected": "LCM = 12"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/051_power_using_loop.c",
+      "input": "2 3\n",
+      "expected": "Power = 8"
+    },
+    {
+      "path": "03_Loops_and_Number_Logic/052_sum_even_odd_digits.c",
+      "input": "1234\n",
+      "expected": "Even digit sum = 6"
+    },
+    {
+      "path": "04_Pattern_Programming/053_solid_square.c",
+      "input": "4\n",
+      "expected": "****"
+    },
+    {
+      "path": "04_Pattern_Programming/054_right_triangle.c",
+      "input": "4\n",
+      "expected": "***"
+    },
+    {
+      "path": "04_Pattern_Programming/055_inverted_triangle.c",
+      "input": "4\n",
+      "expected": "****"
+    },
+    {
+      "path": "04_Pattern_Programming/056_pyramid.c",
+      "input": "4\n",
+      "expected": "*******"
+    },
+    {
+      "path": "04_Pattern_Programming/057_inverted_pyramid.c",
+      "input": "4\n",
+      "expected": "*******"
+    },
+    {
+      "path": "04_Pattern_Programming/058_diamond.c",
+      "input": "3\n",
+      "expected": "*****"
+    },
+    {
+      "path": "04_Pattern_Programming/059_hollow_square.c",
+      "input": "4\n",
+      "expected": "****"
+    },
+    {
+      "path": "04_Pattern_Programming/060_number_triangle.c",
+      "input": "4\n",
+      "expected": "1234"
+    },
+    {
+      "path": "04_Pattern_Programming/061_floyd_triangle.c",
+      "input": "4\n",
+      "expected": "7 8 9 10"
+    },
+    {
+      "path": "04_Pattern_Programming/062_zero_one_triangle.c",
+      "input": "4\n",
+      "expected": "1010"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/063_array_read_display.c",
+      "input": "3\n1 2 3\n",
+      "expected": "Array: 1 2 3"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/064_array_sum_average.c",
+      "input": "3\n1 2 3\n",
+      "expected": "Average = 2.00"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/065_array_max_min.c",
+      "input": "3\n4 1 9\n",
+      "expected": "Largest = 9"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/066_second_largest.c",
+      "input": "5\n1 3 3 2 5\n",
+      "expected": "Second largest = 3"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/067_reverse_array.c",
+      "input": "4\n1 2 3 4\n",
+      "expected": "4 3 2 1"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/068_count_even_odd_array.c",
+      "input": "4\n1 2 3 4\n",
+      "expected": "Even count = 2"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/069_linear_search.c",
+      "input": "4\n3 8 2 9\n2\n",
+      "expected": "Found at index = 2"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/070_binary_search.c",
+      "input": "5\n1 3 5 7 9\n7\n",
+      "expected": "Found at index = 3"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/071_bubble_sort.c",
+      "input": "4\n4 1 3 2\n",
+      "expected": "Sorted: 1 2 3 4"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/072_selection_sort.c",
+      "input": "4\n4 1 3 2\n",
+      "expected": "Sorted: 1 2 3 4"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/073_matrix_addition.c",
+      "input": "1 2 3 4 1 2 3 4\n",
+      "expected": "2 4"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/074_matrix_transpose.c",
+      "input": "1 2 3 4\n",
+      "expected": "1 3"
+    },
+    {
+      "path": "05_Arrays_and_Matrices/075_matrix_multiplication.c",
+      "input": "1 2 3 4 5 6 7 8\n",
+      "expected": "19 22"
+    },
+    {
+      "path": "06_Strings/076_string_length.c",
+      "input": "hello\n",
+      "expected": "Length = 5"
+    },
+    {
+      "path": "06_Strings/077_copy_string.c",
+      "input": "hello\n",
+      "expected": "Copied string = hello"
+    },
+    {
+      "path": "06_Strings/078_compare_strings.c",
+      "input": "cat cat\n",
+      "expected": "Strings are equal"
+    },
+    {
+      "path": "06_Strings/079_concatenate_strings.c",
+      "input": "Hello World\n",
+      "expected": "Concatenated string = HelloWorld"
+    },
+    {
+      "path": "06_Strings/080_reverse_string.c",
+      "input": "hello\n",
+      "expected": "Reversed = olleh"
+    },
+    {
+      "path": "06_Strings/081_palindrome_string.c",
+      "input": "madam\n",
+      "expected": "Palindrome string"
+    },
+    {
+      "path": "06_Strings/082_count_vowels_consonants.c",
+      "input": "hello\n",
+      "expected": "Vowels = 2"
+    },
+    {
+      "path": "06_Strings/083_count_spaces.c",
+      "input": "hello world C\n",
+      "expected": "Spaces = 2"
+    },
+    {
+      "path": "06_Strings/084_count_words.c",
+      "input": "hello world C\n",
+      "expected": "Words = 3"
+    },
+    {
+      "path": "06_Strings/085_character_frequency.c",
+      "input": "banana a\n",
+      "expected": "Frequency = 3"
+    },
+    {
+      "path": "06_Strings/086_remove_spaces.c",
+      "input": "c language is fun\n",
+      "expected": "Without spaces = clanguageisfun"
+    },
+    {
+      "path": "06_Strings/087_anagram_check.c",
+      "input": "listen silent\n",
+      "expected": "Anagrams"
+    },
+    {
+      "path": "07_Functions_and_Recursion/088_add_using_function.c",
+      "input": "10 20\n",
+      "expected": "Sum = 30"
+    },
+    {
+      "path": "07_Functions_and_Recursion/089_largest_using_function.c",
+      "input": "9 4\n",
+      "expected": "Largest = 9"
+    },
+    {
+      "path": "07_Functions_and_Recursion/090_even_odd_function.c",
+      "input": "4\n",
+      "expected": "Even"
+    },
+    {
+      "path": "07_Functions_and_Recursion/091_prime_function.c",
+      "input": "7\n",
+      "expected": "Prime number"
+    },
+    {
+      "path": "07_Functions_and_Recursion/092_factorial_function.c",
+      "input": "5\n",
+      "expected": "Factorial = 120"
+    },
+    {
+      "path": "07_Functions_and_Recursion/093_factorial_recursion.c",
+      "input": "5\n",
+      "expected": "Factorial = 120"
+    },
+    {
+      "path": "07_Functions_and_Recursion/094_fibonacci_recursion.c",
+      "input": "6\n",
+      "expected": "0 1 1 2 3 5"
+    },
+    {
+      "path": "07_Functions_and_Recursion/095_call_by_value.c",
+      "input": "",
+      "expected": "Original after function = 5"
+    },
+    {
+      "path": "07_Functions_and_Recursion/096_swap_using_pointers.c",
+      "input": "10 20\n",
+      "expected": "a = 20, b = 10"
+    },
+    {
+      "path": "07_Functions_and_Recursion/097_array_to_function.c",
+      "input": "3\n1 2 3\n",
+      "expected": "Sum = 6"
+    },
+    {
+      "path": "08_Pointers_and_Dynamic_Memory/098_pointer_address_value.c",
+      "input": "",
+      "expected": "Value = 25"
+    },
+    {
+      "path": "08_Pointers_and_Dynamic_Memory/099_pointer_arithmetic.c",
+      "input": "",
+      "expected": "Second value = 20"
+    },
+    {
+      "path": "08_Pointers_and_Dynamic_Memory/100_modify_through_pointer.c",
+      "input": "",
+      "expected": "After = 50"
+    },
+    {
+      "path": "08_Pointers_and_Dynamic_Memory/101_array_using_pointer.c",
+      "input": "",
+      "expected": "2 4 6 8"
+    },
+    {
+      "path": "08_Pointers_and_Dynamic_Memory/102_string_using_pointer.c",
+      "input": "",
+      "expected": "C language"
+    },
+    {
+      "path": "08_Pointers_and_Dynamic_Memory/103_dynamic_memory.c",
+      "input": "3\n10 20 30\n",
+      "expected": "Values from malloc: 10 20 30"
+    },
+    {
+      "path": "09_Structures_Unions_and_Files/104_student_structure.c",
+      "input": "Harsh 20 88.5\n",
+      "expected": "Name = Harsh"
+    },
+    {
+      "path": "09_Structures_Unions_and_Files/105_multiple_student_records.c",
+      "input": "2\nAsha 80\nRavi 90\n",
+      "expected": "Ravi: 90.00"
+    },
+    {
+      "path": "09_Structures_Unions_and_Files/106_nested_structures.c",
+      "input": "Harsh 12 Kanpur\n",
+      "expected": "House 12, Kanpur"
+    },
+    {
+      "path": "09_Structures_Unions_and_Files/107_union_example.c",
+      "input": "",
+      "expected": "Float value = 3.5"
+    },
+    {
+      "path": "09_Structures_Unions_and_Files/108_enum_example.c",
+      "input": "",
+      "expected": "WEDNESDAY value = 3"
+    },
+    {
+      "path": "09_Structures_Unions_and_Files/109_file_write_read_append.c",
+      "input": "Second line\n",
+      "expected": "Second line"
+    },
+    {
+      "path": "09_Structures_Unions_and_Files/110_file_line_word_character_count.c",
+      "input": "",
+      "expected": "Words = 6"
+    }
+  ],
+  "projects": [
+    {
+      "path": "10_Beginner_Projects/01_Menu_Driven_Calculator/main.c",
+      "input": "10 2\n+\n",
+      "expected": "Result = 12.00"
+    },
+    {
+      "path": "10_Beginner_Projects/02_Student_Grade_Calculator/main.c",
+      "input": "80 75 85\n",
+      "expected": "Grade = A"
+    },
+    {
+      "path": "10_Beginner_Projects/03_MCQ_Quiz_App/main.c",
+      "input": "B\n",
+      "expected": "Score = 1 / 1"
+    },
+    {
+      "path": "10_Beginner_Projects/04_Number_Guessing_Game/main.c",
+      "input": "7\n",
+      "expected": "Correct!"
+    },
+    {
+      "path": "10_Beginner_Projects/05_Unit_Converter/main.c",
+      "input": "1\n250\n",
+      "expected": "Metres = 2.50"
+    },
+    {
+      "path": "10_Beginner_Projects/06_Student_Record_Manager/main.c",
+      "input": "1\nHarsh 90\n2\n3\n",
+      "expected": "Harsh : 90.0"
+    },
+    {
+      "path": "10_Beginner_Projects/07_Attendance_Manager/main.c",
+      "input": "20 18\n",
+      "expected": "90.00%"
+    },
+    {
+      "path": "10_Beginner_Projects/08_Contact_Book/main.c",
+      "input": "Harsh\n9876543210\n",
+      "expected": "Name = Harsh"
+    },
+    {
+      "path": "10_Beginner_Projects/09_Expense_Tracker/main.c",
+      "input": "3\n100\n50\n25\n",
+      "expected": "Total = 175.00"
+    },
+    {
+      "path": "10_Beginner_Projects/10_Library_Management_System/main.c",
+      "input": "20 3\n",
+      "expected": "Available books = 17"
+    },
+    {
+      "path": "10_Beginner_Projects/11_Inventory_Billing_System/main.c",
+      "input": "2\n10 2\n5 3\n",
+      "expected": "Bill total = 35.00"
+    },
+    {
+      "path": "10_Beginner_Projects/12_Bank_Account_Simulation/main.c",
+      "input": "1\n250\n",
+      "expected": "Balance = 1250.00"
+    },
+    {
+      "path": "10_Beginner_Projects/13_Tic_Tac_Toe/main.c",
+      "input": "1 1\n1 2\n2 2\n1 3\n3 3\n",
+      "expected": "Player X wins!"
+    },
+    {
+      "path": "10_Beginner_Projects/14_Employee_Payroll_System/main.c",
+      "input": "Harsh 10000\n",
+      "expected": "Take-home pay = 12500.00"
+    },
+    {
+      "path": "10_Beginner_Projects/15_Text_File_Analyzer/main.c",
+      "input": "C is fun\n",
+      "expected": "Words = 3"
+    }
+  ]
+}

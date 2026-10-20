@@ -1,0 +1,27 @@
+name: C Programming Repository Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile-and-smoke-test:
+    name: Compile and smoke-test C examples
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Check GCC version
+        run: gcc --version
+      - name: Compile all programs and run sample tests
+        run: python .github/scripts/check_repository.py
