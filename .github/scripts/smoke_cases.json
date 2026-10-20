@@ -548,7 +548,7 @@
     {
       "path": "09_Structures_Unions_and_Files/110_file_line_word_character_count.c",
       "input": "",
-      "expected": "Words = 6"
+      "expected": "Words = 7"
     }
   ],
   "projects": [
