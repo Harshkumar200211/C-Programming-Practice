@@ -2,11 +2,11 @@
 
 **Goal:** Calculate attendance percentage from total and attended classes.
 
-**Concepts practised:** input, arithmetic and validation
+**Concepts practised:** Calculate attendance percentage from total and attended classes.
 
 ## Compile and run
 
-From this folder, run:
+From this project folder:
 
 ```bash
 gcc -std=c11 -Wall -Wextra -o app main.c
@@ -15,6 +15,18 @@ gcc -std=c11 -Wall -Wextra -o app main.c
 
 On Windows, run `app.exe` after compiling.
 
+## Sample input
+
+```text
+20 18
+```
+
+## Expected output includes
+
+```text
+90.00%
+```
+
 ## Learning tip
 
-Read the code, predict the result, run it, then change the sample inputs. This project is a learning example, not a production application.
+Read the code, predict the result, run it, then change the sample inputs. This is a beginner learning example, not a production application.

@@ -39,6 +39,7 @@
 | Understand functions and pointers | [Functions](07_Functions_and_Recursion/README.md) · [Pointers](08_Pointers_and_Dynamic_Memory/README.md) |
 | Practise structures and files | [Structures, Unions and Files](09_Structures_Unions_and_Files/README.md) |
 | Build real console projects | [15 Beginner Projects](10_Beginner_Projects/README.md) |
+| See sample input/output for all 110 programs | [Program-by-program guide](PROGRAM_GUIDE.md) |
 | Understand the tests | [Testing guide](TESTING.md) |
 | Contribute a new program | [Contribution guide](CONTRIBUTING.md) |
 
