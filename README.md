@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/Pattern%20Programs-10-8957e5" alt="10 pattern programs">
   <img src="https://img.shields.io/badge/Beginner%20Projects-15-f0883e" alt="15 beginner projects">
   <a href="https://github.com/Harshkumar200211/C-Programming-Practice/actions/workflows/c-programming-checks.yml"><img src="https://github.com/Harshkumar200211/C-Programming-Practice/actions/workflows/c-programming-checks.yml/badge.svg?branch=main" alt="C repository checks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
 </p>
 
 <p><em>Read → Predict → Compile → Run → Change → Explain</em></p>
@@ -282,6 +283,10 @@ These projects are designed for the terminal/console. They are separate from the
 GitHub Actions compiles every `.c` source file using GCC in C11 mode with warning flags. It also runs representative sample inputs against all 110 numbered programs and all 15 projects. A passing check means these sample runs worked; it is not a proof that every possible input is correct.
 
 See [TESTING.md](TESTING.md) for local test instructions and limitations.
+
+## 📜 License
+
+This repository is distributed under the [MIT License](LICENSE). You may use, copy, modify, and distribute the code under the license terms; keep the copyright and permission notice with copies or substantial portions.
 
 ## 🎯 How to practise effectively
 
